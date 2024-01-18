@@ -1,6 +1,7 @@
 import React, { useEffect, useState, ChangeEvent, FormEvent } from 'react';
 import axios from 'axios';
 import '../src/styleSheets/weather.css'
+import LiveTimeAndDate from './time';
 
 interface WeatherData {
   name: string;
@@ -67,6 +68,7 @@ const Weather: React.FC = () => {
           <p>Humidity : {weatherData.main.humidity}%</p>
           <p>Pressure : {weatherData.main.pressure}</p>
           <p>Wind Speed : {weatherData.wind.speed}m/s</p>
+          <p><LiveTimeAndDate /></p>
         </>
       ) : (
         <p>Loading weather data...</p>
