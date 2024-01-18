@@ -1,10 +1,10 @@
 # Weather checking Api
-I coded this website to be farmlise with Api where I can get information from the a API i used openWeatherApi
+Hey, I built this website to check the date and the current weather.
 
 ## Overview
-This website is used to check the current weather in the location of your city.
+This website is used to check the current weather in the location of your city. 
 
-Tech stacked used: react.ts, css, openWeatherApi
+Tech stacked used: react.ts, css, openWeatherMap Api, Axios, Material UI 
 
 ## How to Run
 
