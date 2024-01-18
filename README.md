@@ -4,6 +4,8 @@ I coded this website to be farmlise with Api where I can get information from th
 ## Overview
 This website is used to check the current weather in the location of your city.
 
+Tech stacked used: react.ts, css, openWeatherApi
+
 ## How to Run
 
 To explore and run this portfolio locally, follow these simple steps:
