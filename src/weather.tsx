@@ -1,5 +1,6 @@
 import React, { useEffect, useState, ChangeEvent, FormEvent } from 'react';
 import axios from 'axios';
+import '../src/styleSheets/weather.css'
 
 interface WeatherData {
   name: string;
