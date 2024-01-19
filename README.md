@@ -1,7 +1,9 @@
 # Weather checking Api
 Hey, I built this website to check the current weather and the current date, the emoji would change based on what temparture etc
 
-![image](https://github.com/Arnold45202/weatherApi/assets/143671110/363bfd3b-edba-4ec9-a212-c633f5775a7a)
+![image](https://github.com/Arnold45202/weatherApi/assets/143671110/a99fc386-00c3-4d35-be2b-02a40842a278)
+
+
 
 
 The website is on here https://whatstheweatherrightnow.netlify.app/ 
