@@ -1,26 +1,7 @@
-form {
-    text-align: center;
-    margin: 20px;
-  }
-  
-  input {
-    padding: 10px;
-    margin-right: 10px;
-  }
-  
-  button {
-    padding: 10px;
-  }
-  
-  div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-  }
-  
-  h2, p {
-    margin: 5px;
-  }
-  
+.title {
+  text-align: center;
+  font-size: bold;
+  font-family: Helvetica;
+  margin-top: 50px;
+  font-size: 3.2rem;
+}

@@ -4,7 +4,7 @@ import Weather from './weather';
 function App() {
   return (
     <div className="App">
-      <h1>Weather Forecasting API</h1>
+      <h1 className='title'>What's the weather now 🤔</h1>
         <Weather />
     </div>
   );
