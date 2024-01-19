@@ -109,18 +109,11 @@ const Weather: React.FC = () => {
 
       setWeatherData(response.data);
       setError(false);
-      console.log(response.data);
     } catch (error) {
-      console.error(error);
       setWeatherData(null);
       setError(true);
     }
   };
-
-  useEffect(() => {
-    // Comment out the fetchData() here if you don't want to make an API call on the initial render
-    // fetchData();
-  }, []); // Remove the fetchData dependency if you don't want it to run on every city change
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     setCity(e.target.value);
@@ -137,7 +130,7 @@ const Weather: React.FC = () => {
       <form onSubmit={handleSubmit} className="search-form">
         <input
           type="text"
-          placeholder={error ? "City not found" : "Enter city name"}
+          placeholder="Enter city name"
           value={city}
           onChange={handleInputChange}
           onKeyPress={(e) => e.key === 'Enter' && handleSubmit(e)}
