@@ -2,10 +2,13 @@ import React from 'react';
 import Weather from './weather';
 
 function App() {
+  const backgroundImageStyle = {
+    backgroundImage: `url()`,
+  };
+
   return (
-    <div className="App">
-      <h1 className='title'>What's the weather now 🤔</h1>
-        <Weather />
+    <div className="App" style={backgroundImageStyle}>
+      <Weather />
     </div>
   );
 }
