@@ -60,3 +60,21 @@ body {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+  color: #555555;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+}
+
+.country { 
+  font-family: Arial;
+  font-weight: bold;
+  color: #2d2e32;
+  font-size: 40px;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1504253163759-c23fccaebb55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}

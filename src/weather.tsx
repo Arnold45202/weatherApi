@@ -125,7 +125,7 @@ const Weather: React.FC = () => {
   };
 
   return (
-    <div className="weather-container">
+    <div className="weather-container" >
       <h1 className='title'>What's the weather now 🤔</h1>
       <form onSubmit={handleSubmit} className="search-form">
         <input
@@ -143,8 +143,7 @@ const Weather: React.FC = () => {
         </div>
       ) : weatherData ? (
         <div className="weather-details">
-          <h2>{weatherData.name}</h2>
-          <p><LiveTimeAndDate /></p>
+          <h2 className='country'>{weatherData.name}</h2>
           <div className="weather-info">
             <p>
               {getTemperatureEmoji(weatherData.main.temp)} Temperature: {weatherData.main.temp}°C
@@ -175,6 +174,7 @@ const Weather: React.FC = () => {
               🌬️ Wind Speed: {weatherData.wind.speed}m/s
             </p>
           </div>
+          <p><LiveTimeAndDate /></p>
         </div>
       ) : (
         <h2 className='loading'>Type in your city!</h2>
