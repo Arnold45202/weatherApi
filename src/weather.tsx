@@ -116,7 +116,7 @@ const Weather: React.FC = () => {
   };
 
   useEffect(() => {
-    document.title = 'Home';
+    document.title = 'Weather App';
     const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement | null;
 
     if (favicon) {
