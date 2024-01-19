@@ -1,5 +1,5 @@
 # Weather checking Api
-Hey, I built this website to check the current weather and the current date, the emoji would change based on what temparture etc
+Hey, I built this website to learn the way of building a website by getting real time data by an API
 
 ![image](https://github.com/Arnold45202/weatherApi/assets/143671110/a99fc386-00c3-4d35-be2b-02a40842a278)
 
@@ -9,7 +9,7 @@ Hey, I built this website to check the current weather and the current date, the
 The website is on here https://whatstheweatherrightnow.netlify.app/ 
 
 ## Overview
-This website is used to check the current weather of the location of the city that you type in. 
+This website is used to check the current weather of the location of the city that you type in. Also it changes the emoji based on the temprature/humidity etc.
 
 Tech stacked used: typescript, react, css, openWeatherMap Api, Axios, Material UI 
 
