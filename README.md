@@ -1,4 +1,4 @@
-# Weather checking Api
+# Weather Checking website application
 Hey, I built this website to learn the way of building a website by getting real time data by an API
 
 ![image](https://github.com/Arnold45202/weatherApi/assets/143671110/a99fc386-00c3-4d35-be2b-02a40842a278)
