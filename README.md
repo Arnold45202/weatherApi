@@ -42,6 +42,8 @@ after all the steps it will launch the portfolio website in your default web bro
 
 [0.6.0] - 18/01/2024 website during development phase could be ran but css features need to be added 
 
-[1.0.0] - 19/01/2024 website is working fine with the css features added in 
+[1.0.0] - 19/01/2024 website is working fine with the css features added in
 
 ## ERRORS IN THIS WEBSITE
+
+1. bug found when u use a smaller screen it would have multiple pictures
