@@ -47,3 +47,5 @@ after all the steps it will launch the portfolio website in your default web bro
 ## ERRORS IN THIS WEBSITE
 
 1. bug found when u use a smaller screen it would have multiple pictures
+
+2. bug when u use ur phone 
